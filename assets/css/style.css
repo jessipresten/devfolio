@@ -1,0 +1,33 @@
+/* styles.css */
+
+section {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: rgba(25, 135, 84, 0.3);
+  }
+  
+  #main-skills {
+    background-color: blue;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: red;
+    transition: width 2s ease;
+  }
+  
+  .progress-bar.animate {
+    /* Width is set by JS */
+  }
+  
+  .progress-bar:hover {
+    box-shadow: 0 0 10px 3px red;
+  }
+  
